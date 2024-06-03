@@ -24,7 +24,7 @@ public partial class MainWindow : Window
     private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
     {
         Random rnd = new Random();
-        int value = rnd.Next(-100, 100);
+        int value = rnd.Next(0, 52);
         result.Content = value;
     }
 }

@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical">
-              <Label  Name="result" Height="50" Width="250"></Label>
-          <Button Click="ButtonBase_OnClick" Height="40" Width="250">Давай рандомь</Button>
+            <Image Source="C:\Users\user\Documents\maxresdefault.jpg" Height="100"></Image>
+            <Label  Name="result"  Background="Blue" Foreground="White" FontWeight="ExtraBlack" Height="50" Width="250"></Label>
+          <Button Click="ButtonBase_OnClick" Background="Yellow" FontWeight="Heavy" FontSize="20" FontFamily="Impact" Height="40" Width="250">Давай рандомь</Button>
         </StackPanel>
     </Grid>
 </Window>
